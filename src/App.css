@@ -1,0 +1,233 @@
+html {
+  font-size: 16px; 
+}
+
+body {
+  
+  position: relative;
+  background: white;
+  font-weight: normal;
+}
+
+
+/* Multiple Page Uses*/
+.ButtonsWrapper{ /*General Wrapper for the Buttons*/
+  text-align: center; 
+  width: 30%;
+  display: block;
+
+}
+
+/*First Page Only*/
+
+.first{
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact{
+  text-align: center;
+  width: 100%
+}
+
+.Buttons{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  
+
+}
+
+
+/*Second Page Only*/
+
+.info-box{ /*Main Container*/
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.info-title{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  width: 100%;
+  height: 30vh;;
+}
+
+.infContainer{
+
+
+  background: rgba(0,0,0,.4);
+  margin-top: 30vh;
+  font-family: 'Raleway', sans-serif;
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+ 
+.info{
+
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+
+
+  height: 70%;
+  width: 40%;
+  margin-left: 20%;
+
+
+  vertical-align: middle;
+  
+  font-size: 2.1vw;
+}
+
+
+
+.InfoButtons{
+
+  margin-top: 10vh;
+  float: left;
+
+  height: 75vh;
+  width: 100vw;
+
+  padding-left: 10%;
+
+  display: flex;
+}
+
+
+/* Third Page Only  */
+.project-container{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
+}
+
+.project-header{
+  font-family: 'Raleway', sans-serif;
+  background: rgba(0,0,0,.4);
+  position: absolute;
+  
+
+  float: left;
+
+  color: white;
+  text-align: center;
+
+
+  vertical-align: middle;
+  line-height: 9vh;
+
+  width: 100%;
+  height: 25vh;
+
+}
+
+.project-info{
+  margin-top: 25vh;
+  background: rgba(0,0,0,.4);
+  width: 100%;
+  height: 75%;  
+}
+
+
+/*Font Sizes*/
+
+h1 {
+  font-weight: normal;
+  font-size: 6vw;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 5vw;
+}
+
+/*Screen Size Adjustments*/
+
+@media screen and (max-width: 450px){
+  h1 {
+    font-weight: normal;
+    font-size: 17vw;
+  }
+
+  .info-title{
+    height: 10vh;
+  }
+
+  .InfoButtons{
+    margin-top: 0px;
+
+    margin-left: 15%;
+
+    display: block;
+    width: 70%;
+    padding-left: 4%;
+    justify-content: center;
+
+  }
+
+  .ButtonsWrapper{
+    width: 100%;
+  }
+
+  .infContainer{
+    
+    margin-top: 10vh;
+    height: 90vh;
+  }
+
+  .info{
+    margin-left: 0%;
+    font-size: 4vw;
+    width: 90%;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-height: 490px){
+  .info-title{
+    height: 20vh;
+  }
+  .InfoButtons{
+    
+    margin-top: 0;
+
+  }
+
+  .infContainer{
+    margin-top:20vh;
+    height: 80vh;
+  }
+
+  
+}
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.nav-container{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding-top: 20px;
+    margin-left: 20px;
+
+    width: 15%;
+    
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-item{
+
+}
+
+.BackButton{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.BackButton:hover{
+	text-decoration: none;
+	text-shadow: none;
+	-webkit-transition: 200ms linear 0s;
+	-moz-transition: 200ms linear 0s;
+	-o-transition: 200ms linear 0s;
+	transition: 200ms linear 0s;
+    outline: 2px;
+    transform: scale(1.05);
+    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+
+.nav-item:hover{
+	text-decoration: none;
+	color: black;
+	text-shadow: none;
+	-webkit-transition: 200ms linear 0s;
+	-moz-transition: 200ms linear 0s;
+	-o-transition: 200ms linear 0s;
+	transition: 200ms linear 0s;
+    outline: 2px;
+    transform: scale(1.1);
+
+}
+
+
+@media screen and (max-width: 1250px) {
+    .nav-container{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .nav-item:hover{
+
+        color: gray;
+
+    
+    }
+}

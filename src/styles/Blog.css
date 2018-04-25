@@ -1,0 +1,17 @@
+.blogContainer{
+    background: skyblue;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.blogBody{
+
+    margin-top: 20vh;
+    
+    background: yellow;
+    height: 70vh;
+    width: 50vw;
+
+}
