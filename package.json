@@ -2,7 +2,7 @@
   "name": "parallax",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ryanjeon.github.io/ryanjeon.github.io",
+  "homepage": "http://ryanjeon.github.io/",
   "dependencies": {
     "animate.css": "^3.6.1",
     "radium": "^0.23.0",
