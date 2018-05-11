@@ -1,2 +1,0 @@
-# RyanDomain
-Personal Website
