@@ -18,11 +18,10 @@ class Second extends Component{
                         info: "Who is Ryan Jeon?", 
       developer:  'I am a Full-Stack Developer currently working '+ 
                   'for a university garage startup based in Evanston,'+
-                   'IL. I will be working as a software engineering intern'+
+                   'IL. I will be working as a software engineering intern '+
                     'for Fulcrum-GT this summer. '+
-                    'I am looking for any opportunities to learn '+
-                    'and become a better developer and use my technical '+
-                     'abilities to contribute to inspiring projects.',  
+                    'I am looking for any opportunities to learn and'+
+                    ' contribute to inspiring projects',
     
       student: "I am a Sophomore enrolled in a Computer Science program "+
                 "in Northwestern University. I have spent my first year "+

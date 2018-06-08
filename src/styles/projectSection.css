@@ -22,6 +22,8 @@
     font-family: 'Raleway', sans-serif;
     color: gray;
     font-size: 2vw;
+    margin-left: 5vw;
+    width: 80vw;
 }
 
 
@@ -40,11 +42,15 @@
     }
     
     .project-title{
+        color: gray;
         font-size: 6vw;
     }
     
     .project-des{
+        color:white;
         font-size: 3vw;
+        width: 60vw;
+        margin-left: 25vw;
     }
     
 }

@@ -41,13 +41,16 @@ class Third extends Component{
             image= {require("../images/lower_tress.jpg")}
             container = "project-container"
         >
+
+             <div className = "project-header">
            <ScrollAnimation animateIn="fadeIn"  animateOnce={true}>
-            <div className = "project-header">
+           
               
                     <h2> 	&#8212; Projects &#8212; </h2>
                 
-            </div>  
+         
            </ScrollAnimation>
+           </div>  
            <div className = "project-info">
 
 
