@@ -7,6 +7,7 @@ import Construction from './Pages/Construction';
 import { BrowserRouter , Switch, Route } from 'react-router-dom'
 import Blog from './Pages/Blog'
 import Updates from './Pages/Updates'
+import Demo from './Pages/Demo'
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Route path = '/blog' component = {Blog}/>
             <Route path = '/updates' component = {Updates}/>
             <Route path = '/more' component = {Construction}/>
+            <Route path = '/Demos' component = {Demo}/>
             
             <Route path = '/' component = {App}/>
             <Route path = '/Home' component = {App}/>

@@ -1,0 +1,17 @@
+.demoContainer{
+    background: rgb(41, 109, 41);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.demoBody{
+
+    margin-top: 20vh;
+    
+    background: yellow;
+    height: 70vh;
+    width: 50vw;
+
+}

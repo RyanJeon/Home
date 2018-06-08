@@ -14,7 +14,7 @@ import '../styles/NavBar.css';
 //Write function for components of navigation bar
 function renderOptions(tag = "" , history){
 
-    let tag_arrays = ["Updates", "Blog", "More" ] //Initialize global options
+    let tag_arrays = ["Updates", "Blog", "Demos" ] //Initialize global options
    
     if(tag !== ""){ //If the tag is not empty
         let rest_array = []
