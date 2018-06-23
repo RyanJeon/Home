@@ -15,3 +15,18 @@
     width: 50vw;
 
 }
+
+/* Blog Title Container */ 
+.blogTitleContainer{
+
+    background: rgba(0, 0, 0, .5);
+    width: 95%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
+.blogbox{
+    /*background: rgba(0, 0, 0, .5);*/
+    width: 90vw;
+}
