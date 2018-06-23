@@ -15,8 +15,9 @@ class BlogTitleBox extends Component{
         return(
             <div className = "blogTitleContainer">
 
-                {content}
-
+                <h1>
+                Content Coming Soon!
+                </h1>
             </div>
         );
     }

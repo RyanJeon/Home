@@ -19,7 +19,9 @@
 /* Blog Title Container */ 
 .blogTitleContainer{
 
-    background: rgba(0, 0, 0, .5);
+    text-align: center;
+
+    background: rgba(0,0,0,.5);
     width: 95%;
     height: 30%;
     margin-top: 5%;
@@ -28,5 +30,6 @@
 
 .blogbox{
     /*background: rgba(0, 0, 0, .5);*/
+    margin-top: 10vh;
     width: 90vw;
 }

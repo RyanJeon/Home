@@ -6,7 +6,7 @@ import '../styles/Blog.css';
 class BlogBox extends Component{
 
     renderPost(){
-        let nums = [1, 2, 3];
+        let nums = [1];
         
         const r = nums.map((number) => 
             <BlogTitleBox content = {number} />
