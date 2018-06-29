@@ -22,7 +22,6 @@ class BlogBox extends Component{
     componentDidMount(){
         
         var num = gettest("test8").then(result =>{
-            console.log(2)
             this.setState({data: result.data})
         })
 

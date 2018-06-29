@@ -4,6 +4,7 @@ html{
 }
 
 .blogContainer{
+ 
     background: skyblue;
     height: 100vh; 
 
@@ -26,12 +27,14 @@ html{
 /* Blog Title Container */ 
 .blogTitleContainer{
 
-    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
 
     background: rgba(0,0,0,.5);
     width: 95%;
     height: 200px;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 2.5%;
 }
 

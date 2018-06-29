@@ -6,9 +6,9 @@ import '../App.css';
 
 
 
-const Banner = ({ image, min, max, children, color, container, bannerContainer = "banner-container"}) => (
+const Banner = ({ image, min, max, children, color, container, layers , bannerContainer = "banner-container"}) => (
     <div className={bannerContainer}>
-        <Parallax offsetYMin={min} offsetYMax={max} slowerScrollRate>
+        <Parallax layers = {layers} offsetYMin={min} offsetYMax={max} slowerScrollRate>
             <div
                 className="hero-image"
                 style={{ backgroundImage: `url(${image})` }}
