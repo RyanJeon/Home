@@ -1,6 +1,13 @@
+
+html{
+    background: skyblue;
+}
+
 .blogContainer{
     background: skyblue;
-    height: 100vh;
+    height: 100vh; 
+
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -23,7 +30,7 @@
 
     background: rgba(0,0,0,.5);
     width: 95%;
-    height: 30%;
+    height: 200px;
     margin-top: 5%;
     margin-left: 2.5%;
 }

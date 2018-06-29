@@ -5,6 +5,8 @@
   "homepage": "http://ryanjeon.github.io/Home",
   "dependencies": {
     "animate.css": "^3.6.1",
+    "axios": "^0.18.0",
+    "querystring": "^0.2.0",
     "radium": "^0.23.0",
     "react": "^16.2.0",
     "react-animate-on-scroll": "^2.1.0",
