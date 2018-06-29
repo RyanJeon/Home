@@ -12,10 +12,15 @@ import Demo from './Pages/Demo'
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
-            <Route path = '/blog' component = {Blog}/>
+            <Route path = '/blog' component = {Blog}/>  
+            <Route path = '/Home/Blog' component = {Blog} />
+
             <Route path = '/updates' component = {Updates}/>
+            <Route path = '/Home/updates' component = {Updates}/>
+
             <Route path = '/more' component = {Construction}/>
             <Route path = '/Demos' component = {Demo}/>
+            <Route path = '/Home/Demos' component = {Demo}/>
             
             <Route path = '/' component = {App}/>
             <Route path = '/Home' component = {App}/>

@@ -37,7 +37,7 @@ function renderOptions(tag = "" , history){
 
     //Finalized array
     const final_array = tag_arrays.map((optionTag)  => 
-        <div className = "nav-item" onClick = {() => history.push('/' + optionTag )} >
+        <div className = "nav-item" onClick = {() => history.push('/Home/' + optionTag )} >
             {optionTag}
         </div>
     );
