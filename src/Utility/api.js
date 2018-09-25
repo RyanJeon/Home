@@ -5,7 +5,7 @@ import axios from 'axios';
 import querystring from 'querystring';
 
 
-var baseEndPoint = "https://ryanbacl.herokuapp.com/";
+var baseEndPoint = "https://ryanbacl.herokuapp.com/"; //Base end point
 
 
 
